@@ -1,0 +1,1 @@
+for f in *.txt; do tmp=${f%.txt};sed -i '$s/.$//' "./$f";sed -i 's/^"//' "./$f"; name=$(echo ${tmp,,} | sed 's/\s\+/_/g');mv -- "$f" "$name.feature"; done
