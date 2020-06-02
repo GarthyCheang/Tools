@@ -1,0 +1,9 @@
+{
+	"action": "notifyTableUpdate",
+	"dataType": "notifyTableUpdate",
+	"data": {
+		"acceptActions":["bet", "leave"],
+		"table":{
+		}
+	}
+}

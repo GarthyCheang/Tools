@@ -1,0 +1,37 @@
+{
+  "status": 200,
+  "response": {
+    "apiVersion": "1.9",
+    "serviceVersion": "1.11.0",
+    "stage": "baseGame",
+    "nextStage": "baseGame",
+    "type": "queryGame",
+    "denom": [5.0, 10.0, 20.0, 50.0, 100.0, 500.0, 1000.0],
+    "multiplier": "1,2,3,4,5,6,7,8,9,10",
+    "balanceMode": "credit",
+    "denomIndex": 6,
+    "multiplierIndex": 9,
+    "infos": {
+      "systemCompleted": false
+    },
+    "sessionId": "01DMJE8DBJEQVB7XMSZCYRENEJ",
+    "testMode": false,
+    "current": {
+      "bet": 100,
+      "betCash": 100000,
+      "currency": "RMB",
+      "roundPayout": 0,
+      "roundPayoutCash": 0,
+      "featurePayout": 0,
+      "featurePayoutCash": 0,
+      "symbols": {
+        "line": ["1,1,1,1,1", "2,2,2,2,2", "3,3,3,3,3"],
+        "tension": "x,x,x,x,x"
+      }
+    },
+    "next": {
+      "roundId": "01DMJE8DBJM5RE55CS859GGSE9",
+      "refId": "5ZV5CCJMXT"
+    }
+  }
+}

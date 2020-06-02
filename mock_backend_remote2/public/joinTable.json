@@ -1,0 +1,94 @@
+{
+	"action": "joinTable",
+	"dataType": "joinTable",
+	"data": {
+		"betOptions": [{
+				"name": "player",
+				"maxBet": {
+					"cash": 1000000,
+					"credit": 10000
+				},
+				"minBet": {
+					"cash": 10000,
+					"credit": 100
+				}
+			},
+			{
+				"name": "banker",
+				"maxBet": {
+					"cash": 1000000,
+					"credit": 10000
+				},
+				"minBet": {
+					"cash": 10000,
+					"credit": 100
+				}
+			},
+			{
+				"name": "playerPair",
+				"maxBet": {
+					"cash": 1000000,
+					"credit": 10000
+				},
+				"minBet": {
+					"cash": 10000,
+					"credit": 100
+				}
+			},
+			{
+				"name": "bankerPair",
+				"maxBet": {
+					"cash": 1000000,
+					"credit": 10000
+				},
+				"minBet": {
+					"cash": 10000,
+					"credit": 100
+				}
+			},
+			{
+				"name": "tie",
+				"maxBet": {
+					"cash": 1000000,
+					"credit": 10000
+				},
+				"minBet": {
+					"cash": 10000,
+					"credit": 100
+				}
+			}
+		],
+		"table": {
+			"state": "OPEN",
+			"acceptableActions": ["remote_baccarat_bet"],
+			"handScoreCard":{
+				"trend":""
+			},
+			"minBet": {
+				"cash": 10000,
+				"credit": 100
+			},
+			"maxBet": {
+				"cash": 1000000,
+				"credit": 10000
+			},
+			"shoeScoreBoard": {
+				"shoeId": 1,
+				"history": [{
+						"winner": "BANKER",
+						"pair": "BOTH",
+						"nature": "BANKER"
+					},
+					{
+						"winner": "PLAYER",
+						"pair": "BANKER",
+						"nature": "BOTH"
+					}
+				]
+			},
+			"stage": {
+				"current": "baseGame"
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "action": "deal",
+    "dataType": "error",
+    "data": {
+        "code":"A1",
+		"description":"XXX"
+    }
+}

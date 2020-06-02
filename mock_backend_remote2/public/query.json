@@ -1,0 +1,23 @@
+{
+	"action": "queryGame",
+	"dataType": "queryGame",
+	"data": {
+		"balance": {
+			"mode": "CASH"
+		},
+		"maxBet": {
+			"cash": 1000000,
+			"credit": 10000
+		},
+		"minBet": {
+			"cash": 10000,
+			"credit": 100
+		},
+		"sessionId": "01DTRNF63KAZR4FF5PM3B3V45S",
+		"instanceId": "01DTRNF63D95P4RH6MYNFZT5C5",
+		"denomInfo": {
+			"denoms": [100],
+			"index": 0
+		}
+	}
+}

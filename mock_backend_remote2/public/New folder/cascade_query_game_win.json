@@ -1,0 +1,88 @@
+{
+    "status": 200,
+    "response": {
+        "apiVersion": "1.1",
+        "serviceVersion": "0.3.0.RC0",
+        "stage": "baseGame",
+        "type": "queryGame",
+        "denom": [
+            1,
+            2,
+            5,
+            10,
+            50,
+            100
+        ],
+        "paylines": 30,
+        "multiplier": "1,2,3,4,5,6,7,8,9,10",
+        "denomIndex": 3,
+        "multiplierIndex": 0,
+        "sessionId": "01CNFZPTAN7Z9MG9KVBMJCE7QV",
+        "current": {
+            "roundId": "01CNFZPTANFG0PJQTGDFW7FFFQ",
+            "refId": "TGDFW7FFFQ",
+            "bet": 30,
+            "betCash": 300,
+            "currency": "EUR",
+            "roundPayout": 15,
+            "roundPayoutCash": 150,
+            "featurePayout": 15,
+            "featurePayoutCash": 150,
+            "symbols": {
+                "line": [
+                    "5,1,6,4,6",
+                    "3,5,3,3,2",
+                    "5,2,1,7,7"
+                ],
+                "tension": "x,x,x,x,x",
+                "cascadeLine": [
+                    "5,1,6,x,x",
+                    "8,8,3,4,x",
+                    "3,7,7,8,6",
+                    "5,5,1,3,2",
+                    "7,2,8,7,7"
+                ]
+            },
+            "win": {
+                "totalPayout": 15,
+                "totalPayoutCash": 150,
+                "winType": "L",
+                "payoutPerScreen": [
+                    5,
+                    10
+                ],
+                "payoutCashPerScreen": [
+                    50,
+                    100
+                ],
+                "lines": [
+                    [
+                        {
+                            "payout": 5,
+                            "payoutCash": 50,
+                            "id": 10,
+                            "symbol": 7,
+                            "pos": "o,o,o,x,x"
+                        }
+                    ],
+                    [
+                        {
+                            "payout": 10,
+                            "payoutCash": 100,
+                            "id": 25,
+                            "symbol": 8,
+                            "pos": "o,o,o,o,x"
+                        }
+                    ]
+                ],
+                "screens": [
+                    [],
+                    []
+                ]
+            },
+            "features": {
+                "gamble": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "response": {
+    "infos": {
+      "progPayoutInfo": {
+        "winId": "XXX"
+      }
+    },
+    "apiVersion": "1.9",
+    "serviceVersion": "1.11.0",
+    "stage": "baseGame",
+    "nextStage": "baseGame",
+    "type": "bet",
+    "balanceMode": "credit",
+    "betOnBonusMode": false,
+    "sessionId": "H12345",
+    "current": {
+      "roundId": "0",
+      "refId": "0",
+      "bet": 10,
+      "betCash": 100,
+      "currency": "HKD",
+      "balance": 1000,
+      "balanceCash": 10000,
+      "betBalance": 1000,
+      "betBalanceCash": 10000,
+      "roundPayout": 0,
+      "roundPayoutCash": 0,
+      "featurePayout": 0,
+      "featurePayoutCash": 0,
+      "symbols": {
+        "line": ["6,2,6,6,5", "6,4,6,6,5", "6,4,6,6,5"],
+        "tension": "x,x,x,x,x"
+      }
+    },
+    "next": {
+      "roundId": "1",
+      "refId": "0"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"status": 200,
+	"response": {
+		"apiVersion": "1.3",
+		"serviceVersion": "0.12.1.fixbet",
+		"stage": "baseGame",
+		"nextStage": "baseGame",
+		"denom": [1.0,
+		2.0,
+		5.0,
+		10.0,
+		50.0,
+		100.0],
+		"payLines": 30,
+		"multiplier": "1,2,3,4,5,6,7,8,9,10",
+		"denomIndex": 2,
+		"multiplierIndex": 0,
+		"infos": {
+			"systemCompleted": false
+		},
+		"sessionId": "01CY3D2K97QWGV7JFKG62VDH0G",
+		"current": {
+			"currency": "EUR",
+			"roundPayout": 0,
+			"roundPayoutCash": 0,
+			"featurePayout": 0,
+			"featurePayoutCash": 0,
+			"symbols": {
+				"line": ["2,4,6,4,9",
+				"10,7,9,6,7",
+				"6,6,3,5,2"],
+				"tension": "x,x,x,x,x"
+			}
+		},
+		"next": {
+			"roundId": "01CY3D2K9776DZC0GVPDEZ8HSK"
+		},
+		"type": "queryGame"
+	}
+}

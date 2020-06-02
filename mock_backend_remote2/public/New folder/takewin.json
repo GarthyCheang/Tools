@@ -1,0 +1,19 @@
+{"status":200, "response":{
+    "type": "takeWin",
+    "stage": "baseGame",
+    "nextStage": "baseGame",
+    "current": {
+        "roundId": "12345asdfaklsdasdfas",
+        "refId": "klsdasdfas",
+        "balance": 1000000,
+        "balanceCash": 1000000,
+        "bet": 30,
+        "betCash": 1500,
+        "roundPayout": 100,
+        "roundPayoutCash": 1000
+    },
+    "next": {
+	"roundId": "sdgbfsdry34",
+	"refId": "354dgs"
+    }
+}}

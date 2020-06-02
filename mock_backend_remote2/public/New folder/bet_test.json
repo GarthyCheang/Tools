@@ -1,0 +1,61 @@
+{
+	"status": 200,
+	"response": {
+		"apiVersion": "0.1",
+		"serviceVersion": "0.2.0.RC0",
+		"stage": "baseGame",
+		"type": "bet",
+		"denom": [5.0,
+		10.0,
+		20.0,
+		50.0,
+		100.0,
+		500.0,
+		1000.0],
+		"paylines": 30,
+		"multiplier": "1,2,3,4,5,6,7,8,9,10",
+		"current": {
+			"roundId": "1QM1A4S0CP3NWPEX7S91SPREC8",
+			"refId": "01V8CDXE94",
+			"currency": "RMB",
+			"balance": 100000,
+			"balanceCash": 100000,
+			"roundPayout": 3000,
+			"roundPayoutCash": 30000,
+			"featurePayout": 3000,
+			"featurePayoutCash": 30000,
+			"symbols": {
+				"line": ["11,3,3,10,8",
+				"9,7,4,5,5",
+				"3,5,7,6,10",
+				"8,10,5,8,3"]
+			},
+			"win": {
+				"totalPayout": 3000,
+				"totalPayoutCash": 30000,
+				"winType": 3,
+				"lines": [{
+					"payout": 3000,
+					"payoutCash": 30000,
+					"id": 10,
+					"symbol": 3,
+					"pos": "o,o,o,x,x"
+				}],
+				"screens": [{
+					"payout": 0,
+					"payoutCash": 0,
+					"feature": "FreeGame",
+					"count": 8,
+					"symbol": 10,
+					"pos": ["x,x,x,o,x",
+					"x,x,x,x,x",
+					"x,x,x,x,o",
+					"x,o,x,x,x"]
+				}]
+			},
+			"features": {
+				"gamble": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{"status":200, "response":{
+    "type": "pick",
+    "stage": "pickHutGame",
+    "nextStage": "baseGame",
+    "current": {
+        "roundId": "12345asdfaklsdasdfas",
+        "refId": "klsdasdfas",
+        "balance": 10000,
+        "balanceCash": 10000,
+        "bet": 30,
+        "betCash": 1500,
+        "roundPayout": 100,
+        "roundPayoutCash": 1000,
+	"featurePayout": 1000,
+	"featurePayoutCash": 1000,
+        "win": {
+            "balance": 10100,
+            "balanceCash": 10100,
+            "totalPayout": 100,
+            "totalPayoutCash": 1000,
+            "playType": "credit",
+	    "multiple": 2,
+            "result": [{
+                "index": 0,
+                "payout": 10,
+                "payoutCash": 10
+            },
+            {
+                "index": 1,
+                "payout": 0,
+                "payoutCash": 0
+            }]
+        },
+        "features": {"gamble": 1}
+    }
+}}
+

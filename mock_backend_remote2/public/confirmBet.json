@@ -1,0 +1,24 @@
+{
+	"action": "remoteBaccaratBet",
+	"dataType": "remoteBaccaratBet",
+	"data": {
+		"betOptions": [{
+			"name": "player",
+			"betAmount": {
+				"credit": 100
+			}
+		}],
+		"table": {
+			"id": "123",
+			"state": "OPEN",
+			"acceptableActions": [],
+			"roundInfo": {
+				"id": "xxxxx"
+			}
+		},
+		"balance": {
+			"cash": 10000000,
+			"credit": 100000
+		}
+	}
+}

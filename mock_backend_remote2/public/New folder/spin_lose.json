@@ -1,0 +1,32 @@
+{"status": 200,
+ "response": {
+        "serviceVersion": "v1.0",
+        "apiVersion": "v1.0",
+        "denom": "1,2,5,10,20,50,100",
+        "paylines": "100",
+        "multiplier": "1,2,3,4,5,6,7,8,9,10",
+        "stage": "freeGame",
+        "currency": "HKD",
+        "current": {
+                "roundID": "12345asdfaklsdasdfaq",
+                "refID": "klsdasdfaq",
+                "balance": 10000,
+                "balanceCash": 10000,
+                "roundPayout": 1000,
+                "roundPayoutCash": 1000,
+                "featurePayout": 0,
+                "featurePayoutCash": 0,
+                "symbols": {
+                        "line": ["1,1,1,5,6",
+                                "1,11,1,11,7",
+                                "1,3,11,1,11",
+                                "1,9,4,1,1"],
+                        "extraLine":    ["x,1,1,1,1",
+                                        "x,1,1,1,1",
+                                        "x,1,x,x,1"],
+                        "shiftIndex":   "0,3,2,-2,-3"
+                },
+                "features": {"freeGame": 5}
+        }
+}}
+

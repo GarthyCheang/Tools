@@ -1,0 +1,15 @@
+{"status":200, "response":{
+    "type": "enterGamble",
+    "stage": "baseGame",
+    "nextStage": "gamble",
+    "current": {
+        "roundId": "12345asdfaklsdasdfas",
+        "refId": "klsdasdfas",
+        "balance": 10000,
+        "balanceCash": 10000,
+        "history": "2s,Ad,2c,4s,5h,2s,Td,Ks,Qh,Jc,Ad,2c",
+        "roundPayout": 100,
+        "roundPayoutCash": 1000
+    }
+}}
+

@@ -1,0 +1,48 @@
+{"status": 200,
+ "response": {
+        "serviceVersion": "v1.0",
+        "apiVersion": "v1.0",
+        "denom": "1,2,5,10,20,50,100",
+        "paylines": "30",
+        "multiplier": "1,2,3,4,5,6,7,8,9,10",
+        "stage": "baseGame",
+        "currency": "HKD",
+        "current": {
+                "roundID": "12345asdfaklsdasdfaq",
+                "refID": "klsdasdfaq",
+                "balance": 10000,
+		"balanceCash": 10000,
+		"roundPayout": 1000,
+		"roundPayoutCash": 1000,
+                "symbols": {
+                        "line": ["2-2-1-2-2",
+                        "1-8-3-4-4",
+                        "9-2-5-5-5"],
+                        "tension": "x-x-x-1-1"
+                },
+                "win": {
+                        "balance": 10100,
+                        "balanceCash": 10100,
+                        "totalPayout": 1000,
+                        "totalPayoutCash": 1000,
+                        "lines": [{
+                                "symbol": 5,
+                                "id": 2,
+                                "payout": 10,
+                                "payoutCash": 10,
+                                "pos": "x-x-2-2-2"
+                        },
+                        {
+                                "symbol": 2,
+                                "id": 5,
+                                "payout": 90,
+                                "payoutCash": 90,
+                                "pos": "0-0-x-0-0"
+                        }],
+                        "winType": "M"
+                },
+		"features": {"gamble": 1}
+
+        }
+}}
+

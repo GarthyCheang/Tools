@@ -1,0 +1,32 @@
+{
+	"action": "notifyGameResult",
+	"dataType": "notifyGameResult",
+	"data": {
+		"table": {
+			"state": "OPEN",
+			"acceptableActions": ["remote_baccarat_bet", "leave_table"],
+			"stage": {
+				"current": "baseGame"
+			},
+			"handScoreCard": {
+				"winner": "PLAYER",
+				"pair": "PLAYER"
+			}
+		},
+		"player": {
+			"card": ["6c",
+				"6s",
+				"7s"
+			],
+			"point": 9
+		},
+		"banker": {
+			"card": ["2h",
+				"Ad",
+				"5c"
+			],
+			"point": 8
+
+		}
+	}
+}

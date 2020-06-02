@@ -1,0 +1,225 @@
+{
+	"status": 200,
+	"response": {
+		"apiVersion": "1.7",
+		"serviceVersion": "0.15.0.RC9.LP",
+		"stage": "baseGame",
+		"type": "bet",
+		"balanceMode": "credit",
+		"sessionId": "01D5X3EJBHZ4N35AJ1B6V49SMX",
+		"testMode": false,
+		"current": {
+			"roundId": "01D5X3KE9H44D2FMQ3MKTG1ZCH",
+			"refId": "Q3MKTG1ZCH",
+			"bet": 250,
+			"betCash": 1250,
+			"currency": "RMB",
+			"balance": 65886140,
+			"balanceCash": 329430700,
+			"roundPayout": 100000,
+			"roundPayoutCash": 500000,
+			"featurePayout": 100000,
+			"featurePayoutCash": 500000,
+			"symbols": {
+				"line": ["7,10,2,10,1",
+					"4,8,9,10,4",
+					"11,10,5,3,5"
+				],
+				"tension": "x,x,x,x,x",
+				"cascadeLine": [
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,1,1,1,1",
+					"1,8,1,10,1",
+					"11,10,5,3,5"
+				]
+			},
+			"win": {
+				"totalPayout": 100000,
+				"totalPayoutCash": 500000,
+				"winType": "B",
+				"payoutPerScreen": [50000,
+					50000,
+					0
+				],
+				"payoutCashPerScreen": [250000,
+					250000,
+					0
+				],
+				"reels": [
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}],
+					[{
+						"payout": 50000,
+						"payoutCash": 250000,
+						"waysPayout": 50000,
+						"waysPayoutCash": 250000,
+						"symbol": 1,
+						"pos": ["0",
+							"0",
+							"0",
+							"0",
+							"0"
+						]
+					}]
+				],
+				"screens": [
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			},
+			"features": {
+				"gamble": 1
+			}
+		}
+	}
+}

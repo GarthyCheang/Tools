@@ -1,0 +1,23 @@
+{"status": 200,
+ "response": {
+        "serviceVersion": "v1.0",
+        "apiVersion": "v1.0",
+        "denom": "1,2,5,10,20,50,100",
+        "paylines": "30",
+        "multiplier": "1,2,3,4,5,6,7,8,9,10",
+        "stage": "baseGame",
+        "currency": "HKD",
+        "current": {
+                "roundID": "12345asdfaklsdasdfaq",
+                "refID": "klsdasdfaq",
+                "balance": 10000,
+                "balanceCash": 10000,
+                "roundPayout": 0,
+                "roundPayoutCash": 0,
+                "symbols": {
+                        "line": ["1,2,3,4,5",
+                        "5,6,7,8,2",
+                        "9,4,6,8,10"]
+                }},
+		"next":{"roundId": "fadsgfds", "refId": "dgfd324"}
+}}

@@ -1,0 +1,94 @@
+{
+	"action": "queryGame",
+	"dataType": "baccaratDeal",
+	"data": {
+		"table": {
+			"roundInfo": {
+				"id": "123"
+			},
+			"stage": {
+				"current": "baseGame"
+			},
+			"shoe": {
+				"id": 2,
+				"remainingAmount": 385,
+				"cutCardPos": 400
+			},
+			"handScoreCard": {
+				"winner": "BANKER"
+			},
+			 "denomInfo": {
+                "denoms": [
+                    100
+                ],
+                "index": 0
+            }
+		},
+		"betOptions": [{
+			"name": "player",
+			"betAmount": {
+				"cash": 1000,
+				"credit": 10
+			},
+			"payout": {
+				"cash": 0,
+				"credit": 0
+			},
+			"type": "LOSE"
+		},
+		{
+			"name": "banker",
+			"payout": {
+				"cash": 0,
+				"credit": 0
+			}
+		},
+		{
+			"name": "tie",
+			"payout": {
+				"cash": 0,
+				"credit": 0
+			}
+		},
+		{
+			"name": "player_pair",
+			"payout": {
+				"cash": 0,
+				"credit": 0
+			}
+		},
+		{
+			"name": "banker_pair",
+			"payout": {
+				"cash": 0,
+				"credit": 0
+			}
+		}],
+		"player": {
+			"card": ["Ac",
+			"3d",
+			"2d"],
+			"point": 6,
+			"actionWin": {
+				"cash": 0,
+				"credit": 0
+			}
+		},
+		"banker": {
+			"card": ["8s",
+			"9c"],
+			"point": 7
+		},
+		"balance": {
+			"mode": "CASH",
+			"currency": "HKD",
+			"cash": 1000000,
+			"credit": 10000
+		},
+		"beforeResultBalance": {
+			"currency": "HKD",
+			"cash": 1000000,
+			"credit": 10000
+		}
+	}
+}

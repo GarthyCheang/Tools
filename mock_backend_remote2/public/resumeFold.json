@@ -1,0 +1,96 @@
+{
+    "action": "queryGame",
+    "dataType": "fold",
+    "data": {
+		"bet":{
+            "denomInfo":{
+                "denoms": [1,2],
+                "index": 0
+            },
+             "options": [
+                {
+                    "name": "ante",
+                    "maxBet": {
+                        "cash": 100
+                    },
+                    "minBet": {
+                        "cash": 10
+                    },
+                    "betAmount": {
+                        "credit": 100,
+                        "cash": 10
+                    }
+                },
+                {
+                    "name": "aa",
+                    "maxBet": {
+                        "cash": 100
+                    },
+                    "minBet": {
+                        "cash": 10
+                    },
+                    "betAmount": {
+                        "credit": 100,
+                        "cash": 10
+                    }
+                }
+            ]
+        },
+        "stage": {
+            "current": "baseGame",
+            "nextStage": "baseGame"
+        },
+        "balance": {
+            "credit": 100,
+            "cash": 1000
+        },
+        "player": {
+            "card": [
+                "As",
+                "Kc"
+            ],
+            "hand": [
+                "As",
+                "Kc",
+                "2s",
+                "3c",
+                "9h"
+            ],
+            "rank": "Flush"
+        },
+        "dealer": {
+            "card": [
+                "Qd",
+                "Jc"
+            ],
+            "hand": [
+                "Qd",
+                "Jc",
+                "2s",
+                "3c",
+                "9h"
+            ],
+            "rank": "Straight"
+        },
+        "publicCard": [
+            "2s",
+            "3c",
+            "9h",
+            "Ts",
+            "Js"
+        ],
+        "result": {
+            "betOption": [
+                {
+                    "name": "ante",
+                    "type": "lose"
+                },
+                {
+                    "name": "aa",
+                    "type": "lose"
+                }
+            ]
+        },
+        "nextRoundId": "XXX"
+    }
+}

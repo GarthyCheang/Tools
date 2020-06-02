@@ -1,0 +1,99 @@
+{
+    "action": "shuffle",
+    "dataType": "shuffle",
+    "data": {
+        "shoeHistory": [
+            {
+                "winner": "BANKER",
+                "pair": "BOTH",
+                "nature": "BANKER"
+            },
+            {
+                "winner": "PLAYER",
+                "pair": "BANKER",
+                "nature": "BOTH"
+            }
+        ],
+        "handScoreBoard": {
+            "winner": "PLAYER",
+            "pair": "BANKER",
+            "nature": "BOTH"
+        },
+        "balance": {
+            "mode": "CASH"
+        },
+        "sessionId": "xxx",
+        "betOptions": [
+            {
+                "name": "player",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "banker",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "playerPair",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "bankerPair",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "tie",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            }
+        ],
+        "table": {
+            "shoe": {
+                "id": "1",
+                "remainingAmount": 408,
+                "cutCardPos": 399,
+                "shuffle": {
+                    "burn": {
+                        "draw": "7d",
+                        "total": 8
+                    }
+                }
+            },
+            "denomInfo": {
+                "denoms": [
+                    100
+                ],
+                "index": 0
+            },
+            "roundInfo": {
+                "id": "xxxxx"
+            },
+            "stage": {
+                "current": "baseGame"
+            }
+        }
+    }
+}

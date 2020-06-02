@@ -1,0 +1,75 @@
+{
+	"action": "queryGame",
+	"dataType": "reshuffle",
+	"data": {
+		"table": {
+			"roundInfo": {
+				"id": "123"
+			},
+			"stage": {
+				"current": "baseGame"
+			},
+			"denomInfo": {
+                "denoms": [
+                    100
+                ],
+                "index": 0
+            },
+			"shoe": {
+				"id": 3,
+				"remainingAmount": 408
+			}
+		},
+		"balance": {
+            "mode": "CASH"
+        },
+        "sessionId": "xxx",
+        "betOptions": [
+            {
+                "name": "player",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "banker",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "playerPair",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "bankerPair",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            },
+            {
+                "name": "tie",
+                "maxBet": {
+                    "cash": 10000
+                },
+                "minBet": {
+                    "cash": 10
+                }
+            }
+        ]
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "status": 200,
+  "response": {
+    "type": "bet",
+    "stage": "baseGame",
+    "nextStage": "freeGame",
+    "current": {
+      "roundId": "12345asdfaklsdasdfas",
+      "refId": "klsdasdfas",
+      "balance": 10000,
+      "balanceCash": 10000,
+      "bet": 30,
+      "betCash": 1500,
+      "roundPayout": 100,
+      "roundPayoutCash": 1000,
+      "featurePayout": 100,
+      "featurePayoutCash": 1000,
+      "symbols": {
+        "line": [
+          "1,1,12,12,1",
+          "13,2,3,4,5",
+          "6,12,8,9,10"
+        ]
+      },
+      "win": {
+        "totalPayout": 100,
+        "totalPayoutCash": 1000,
+        "screens": [{
+          "symbol": 12,
+          "pos": [
+            "x,x,o,o,x",
+            "x,x,x,x,x",
+            "x,o,x,x,x"
+          ],
+          "feature": "freeGame"
+        }]
+      },
+      "features": {
+        "freeGame": "option"
+      },
+      "option": {
+        "freeGame": {
+          "count": 1
+        }
+      }
+    }
+  }
+}

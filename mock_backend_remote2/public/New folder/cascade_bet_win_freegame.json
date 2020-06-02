@@ -1,0 +1,77 @@
+{"status": 200,
+  "response": {
+    "serviceVersion": "v1.0",
+    "apiVersion": "v1.0",
+    "denom": "1,2,5,10,20,50,100",
+    "paylines": "30",
+    "multiplier": "1,2,3,4,5,6,7,8,9,10",
+    "stage": "baseGame",
+    "nextStage":"freeGame",
+    "type":"bet",
+    "currency": "HKD",
+    "current": {
+      "roundID": "12345asdfaklsdasdfaq",
+      "refID": "klsdasdfaq",
+      "balance": 10000,
+      "balanceCash": 10000,
+      "roundPayout": 10000,
+      "roundPayoutCash": 10000,
+      "featurePayout": 10000,
+      "featurePayoutCash": 10000,
+      "symbols": {
+        "line": [
+          "7,3,5,4,7",
+          "1,2,3,5,8",
+          "8,6,8,3,2"
+        ],
+        "cascadeLine": [
+          "7,3,5,x,x",
+          "1,2,3,x,x",
+          "9,9,9,4,x",
+          "7,7,7,5,7",
+          "2,2,2,2,8",
+          "8,6,8,3,2"
+        ]
+      }},
+      "win":{
+        "balance": 100000,
+        "balanceCash": 100000,
+        "totalPayout": 200,
+        "totalPayoutCash": 2000,
+        "winType": "L",
+        "features":{"freeGame":1},
+        "lines": [
+          [{        
+            "symbol": 2,
+            "id": 0,
+            "payout": 200,
+            "payoutCash": 2000,
+            "pos": "o,o,o,o,x"        
+          },
+          {        
+            "symbol": 7,
+            "id": 1,
+            "payout": 100,
+            "payoutCash": 1000,
+            "pos": "o,o,o,x,x"        
+          }],
+          []
+        ],
+        "screens": [
+          [],
+          [{
+            "symbol": 9,
+            "payout": 100,
+            "payoutCash": 1000,
+            "pos": [
+              "x,x,x,x,x",
+              "o,o,o,x,x",
+              "x,x,x,x,x"
+            ],
+            "feature": "freeGame",
+            "count": 1
+          }]
+        ]
+      }
+  }}
+       

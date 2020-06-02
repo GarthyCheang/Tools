@@ -1,0 +1,45 @@
+{
+	"status": 200,
+	"response": {
+		"apiVersion": "1.3",
+		"serviceVersion": "0.12.1.fixbet",
+		"stage": "baseGame",
+		"sessionId": "01CY3D56Y3EN9FXJ3Z60B878T6",
+		"current": {
+			"roundId": "01CY3D56Y3BWPH8CXW28GX6B15",
+			"refId": "XW28GX6B15",
+			"bet": 30,
+			"betCash": 600,
+			"currency": "RMB",
+			"balance": 61530,
+			"balanceCash": 1230600,
+			"roundPayout": 10,
+			"roundPayoutCash": 200,
+			"featurePayout": 10,
+			"featurePayoutCash": 200,
+			"symbols": {
+				"line": ["12,6,1,9,6",
+				"8,5,8,4,2",
+				"9,7,6,6,8"],
+				"tension": "x,x,x,x,x"
+			},
+			"win": {
+				"totalPayout": 10,
+				"totalPayoutCash": 200,
+				"winType": "L",
+				"lines": [{
+					"payout": 10,
+					"payoutCash": 200,
+					"id": 25,
+					"symbol": 6,
+					"pos": "o,o,o,x,x",
+					"linePos": "0,0,2,x,x"
+				}]
+			},
+			"features": {
+				"gamble": 1
+			}
+		},
+		"type": "bet"
+	}
+}

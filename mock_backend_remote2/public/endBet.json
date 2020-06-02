@@ -1,0 +1,11 @@
+{
+	"action": "notifyTableUpdate",
+	"dataType": "notifyTableUpdate",
+	"data": {
+		"table": {
+			"id": "123",
+			"state": "OPEN",
+			"acceptableActions": []
+		}
+	}
+}

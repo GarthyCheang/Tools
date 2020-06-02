@@ -1,0 +1,85 @@
+{
+	"action": "notifyGameAndBetResult",
+	"dataType": "notifyGameAndBetResult",
+	"data": {
+		"table": {
+			"state": "OPEN",
+			"acceptableActions": ["remote_baccarat_bet", "leave_table"],
+			"stage": {
+				"current": "baseGame"
+			},
+			"handScoreCard": {
+				"winner": "PLAYER",
+				"nature": "PLAYER"
+			}
+		},
+		"betOptions": [{
+				"name": "player",
+				"betAmount": {
+					"cash": 3000,
+					"credit": 300
+				},
+				"payout": {
+					"cash": 6000,
+					"credit": 600
+				},
+				"type": "WIN"
+			},
+			{
+				"name": "banker",
+				"payout": {
+					"cash": 0,
+					"credit": 0
+				}
+			},
+			{
+				"name": "tie",
+				"payout": {
+					"cash": 0,
+					"credit": 0
+				}
+			},
+			{
+				"name": "player_pair",
+				"payout": {
+					"cash": 0,
+					"credit": 0
+				}
+			},
+			{
+				"name": "banker_pair",
+				"payout": {
+					"cash": 0,
+					"credit": 0
+				}
+			}
+		],
+		"player": {
+			"card": ["Ah",
+				"8d"
+			],
+			"point": 9,
+			"actionWin": {
+				"cash": 6000,
+				"credit": 600
+			}
+		},
+		"banker": {
+			"card": ["8c",
+				"4s"
+			],
+			"point": 2
+		},
+		"balance": {
+			"mode": "CASH",
+			"currency": "RMB",
+			"cash": 10003000,
+			"credit": 1000300
+		},
+		"beforeResultBalance": {
+			"currency": "RMB",
+			"cash": 9997000,
+			"credit": 999700
+		}
+	}
+}
